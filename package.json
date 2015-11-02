@@ -1,0 +1,27 @@
+{
+  "name": "simplyemail",
+  "version": "1.0.0",
+  "description": "This is a demo project to send emails using nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryansinghies/simplyemail.git"
+  },
+  "keywords": [
+    "email",
+    "smtp",
+    "node",
+    "express",
+    "gmail"
+  ],
+  "author": "Aryan Singh <aryan_singh1993@yahoo.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "nodemailer": "^1.8.0"
+  }
+}
